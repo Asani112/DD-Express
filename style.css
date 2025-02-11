@@ -784,6 +784,9 @@ footer{
 .email{
   width: 100%;
 }
+.newsletter {
+  margin-bottom: 4rem;
+}
 .footLinks {
   flex-direction: column;
 }
@@ -817,7 +820,7 @@ font-size: 18px;
   margin-bottom: 1rem;
 }
 .copyright{
-  font-size: 16px;
+  font-size: 18px;
 
 }
 
