@@ -170,6 +170,7 @@ nav li {
 
 .affiliate {
   margin-top: 3rem;
+  align-items: center;
 }
 
 .affiliate img {
@@ -373,6 +374,9 @@ nav li {
   line-height: 32.4px;
   color: #043caa;
 }
+.clientText h2{
+  color: #000000;
+}
 
 footer {
   background-color: #043caa;
@@ -548,14 +552,14 @@ footer {
   .footLeft{
     width: 30%;
   }
-
 }
 
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
   .textside h2 {
     font-size: 38px;
     line-height: 45.57px;
-  }
+}
   
   .textside p {
     font-size: 16px;
@@ -583,10 +587,16 @@ footer {
     margin-right: 0.5rem;
   }
   .medicinetext h4{
-    font-size: 13px;
+    width: 80%;
+  }
+  .medicinetext li{
+ font-size: 13px;
   }
   .doorsteptext h4{
     width: 80%;
+  }
+  .doorstep li {
+    font-size: 13px;
   }
   .profiletext h4{
     width: 80%;
@@ -596,7 +606,7 @@ footer {
   }
 
   .clientText h2{
-   font-size: 25px;
+   font-size: 13px;
   }
   .clientText p{
     font-size: 13px;
@@ -605,33 +615,34 @@ footer {
 font-size: 13px;
   }
   .signUp{
-    width: 65%;
+    width: 75%;
   }
   
   .email{
     width: 60%;
   }
   .signUp h3{
-    font-size: 18px;
+    font-size: 16px;
   }
   .signUp p{
     font-size: 14px;
   }
-  .email label{
-    font-size: 14px;
+  .email {
+   width: 60%;
   }
   .newsletter {
     gap: 5rem;
   }
 
   .footLinks {
-    gap: 5rem;
+    gap: 2rem;
   }
-  .footLeft p{
-    font-size: 14px;
-  }
+  
   .quickLinks h5{
     font-size: 14px;
+  }
+  .quickLinks p{
+font-size: 14px;
   }
 
   .footRight {
@@ -645,6 +656,173 @@ font-size: 13px;
 .copyright{
   font-size: 14px;
 }
+
+}
+
+@media (max-width: 425px) {
+  nav{
+    display: none;
+
+  }
+  .btn {
+    display: none;
+  }
+  .hero{
+    flex-direction: column-reverse;
+  }
+  .textside{
+    width: 100%;
+    margin-top: 1rem;
+  }
+.imageside{
+  width: 100%;
+}
+.heroinput input {
+  width: 70%;
+}
+
+.heroinput button {
+  width: 25%;
+}
+.headerhero{
+  padding-bottom: 3rem;
+
+}
+.affiliate {
+width: 50%;
+margin: auto;
+}
+
+.affiliate img {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 2rem;
+}
+.medicine {
+  flex-direction: column;
+}
+.medicinetext {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.medicinetext h4{
+  width: 60%;
+}
+.medicineimage {
+  width: 100%;
+}
+.medicinetext li {
+  font-size: 17px;
+}
+.doorstep {
+  flex-direction: column-reverse;
+}
+.doorsteptext {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.doorsteptext h4{
+  width: 60%;
+}
+.doorstepimg  {
+  width: 100%;
+}
+.doorsteptext li {
+  font-size: 17px;
+}
+.profile{
+flex-direction: column;
+}
+.profiletext {
+width: 100%;
+margin-top: 2rem;
+}
+.profileimg {
+width: 100%;
+}
+.profiletext h4{
+  width: 70%;
+}
+.profiletext li {
+  font-size: 17px;
+}
+.client {
+  flex-direction: column;
+}
+.clientImage {
+  width: 100%;
+}
+.clientText {
+  width: 80%;
+  margin: auto;
+
+}
+/* .clientText h2 {
+  width: 80%;
+  margin: auto;
+  font-size: 22px;
+} */
+
+.clientText p {
+font-size: 18px;
+}
+.clientText h5{
+font-size: 18px;
+}
+footer{
+ margin-top: 2rem;
+
+}
+.newsletter{
+  flex-direction: column;
+}
+.signUp {
+  width: 100%;
+}
+.email{
+  width: 100%;
+}
+.footLinks {
+  flex-direction: column;
+}
+.footLeft {
+  width: 100%;
+}
+.footRight {
+  width: 100%;
+display: block;
+}
+.signUp h3 {
+  font-size: 24px;
+}
+.sigUp p {
+  font-size: 18px;
+}
+.email label {
+  font-size: 18px;
+}
+.footLeft p{
+  font-size: 18px;
+}
+.quickLinks h5{
+  font-size: 18px;
+}
+.quickLinks p {
+font-size: 18px;
+}
+
+.quickLinks {
+  margin-bottom: 1rem;
+}
+.copyright{
+  font-size: 16px;
+
+}
+
+
+
 
 
 
